@@ -1,0 +1,76 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode — user-specific state
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Xcode — generated build data
+DerivedData/
+Build/
+build/
+DerivedData-*/
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Xcode archives and packaged products
+*.app
+*.xcarchive
+*.dmg
+*.pkg
+Final-App-*/
+Distribution*/
+ReleaseDerivedData/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Temporary files and logs
+*.log
+*.tmp
+*.swp
+*~
+
+# Code-signing material and credentials
+*.p12
+*.p8
+*.pfx
+*.cer
+*.der
+*.mobileprovision
+*.provisionprofile
+*.key
+*.pem
+*.jks
+*.keystore
+.env
+.env.*
+.envrc
+.netrc
+credentials.json
+credentials.yml
+credentials.yaml
+secrets.json
+secrets.yml
+secrets.yaml
+AuthKey_*.p8
+
+# Local IDE/editor settings
+.idea/
+.vscode/
+
+# Apple application icons copied locally for development.
+# Keep the image sets on this Mac, but never commit or redistribute them.
+KleanBytes/Assets.xcassets/SystemApp*.imageset/
